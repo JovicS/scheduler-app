@@ -1,0 +1,13 @@
+.input_text{
+    text-align: center;
+    cursor: pointer; 
+}
+
+.input_field{
+    width: 160px;
+    text-align: center;
+}
+
+.date_picker{
+    min-width: 240px;
+}

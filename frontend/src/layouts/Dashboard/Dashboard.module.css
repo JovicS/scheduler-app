@@ -1,0 +1,107 @@
+.nav_menu {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    )
+    #121212;
+  width: 256px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+  min-height: 475px;
+  z-index: 999;
+}
+
+.nav_text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  border-radius: 4px;
+  width: 152px;
+  height: 24px;
+  letter-spacing: 0.15px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-bottom: 24px;
+}
+
+.nav_menu_items_up {
+  width: 100%;
+  padding-left: 24px;
+  padding-top: 12px;
+  list-style-type: none;
+}
+
+.nav_menu_items_down {
+  width: 100%;
+  padding-left: 24px;
+  list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.child {
+  justify-content: flex-start;
+  display: flex;
+  margin-left: 256px;
+}
+.closed_drawer_child {
+  justify-content: flex-start;
+  display: flex;
+  margin-left: 5px;
+}
+
+.icon {
+  width: 25px;
+}
+
+.name {
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.closed_drawer {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    )
+    #121212;
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+  min-height: 475px;
+  z-index: 999;
+}
+.button_container {
+  align-self: flex-end; /* This will align the container to the bottom of the flex container */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.sidebar_button {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  margin-bottom: 0px;
+  z-index: 999;
+}

@@ -1,0 +1,67 @@
+.container{
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.grid{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.grid_height{
+    height: 500px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional_fields{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.text_field{
+    margin: 0;
+    width: 200px;
+}
+
+.input_props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    height: 36px;
+    margin-left: 0;
+    padding-left: 0;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.delete_button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.breadcrumbs{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+

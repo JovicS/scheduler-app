@@ -1,0 +1,322 @@
+.container {
+  display: flex;
+  margin-left: 44px;
+  position: relative;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.date_picker {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 47px;
+  width: 240px;
+}
+
+.date_picker_scroll {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 240px;
+}
+
+.company {
+  margin-right: 9px;
+}
+
+.company_name {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 39px;
+  margin-bottom: 8px;
+  border-radius: 0px 0px 4px 4px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  min-width: 248px;
+}
+
+.company_trucks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.truck_container {
+  width: 248px;
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  border-radius: 4px;
+}
+
+.truck_container_text {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.truck_container_text span {
+  padding-top: 0;
+  padding-left: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.body_container {
+  margin-top: 14px;
+  margin-bottom: 7px;
+}
+
+.row {
+  margin-left: 44px;
+  display: flex;
+  min-height: 163px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.date {
+  width: 240px;
+  height: auto;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  padding-bottom: 33px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.date_horizontal {
+  width: 150px;
+  height: auto;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  padding-bottom: 33px;
+  position: sticky;
+  top: 115px;
+  left: 256px;
+  z-index: 2;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  margin-right: 8px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 5%), 0px 1px 1px rgb(0 0 0 / 10%),
+    0px 1px 3px rgb(0 0 0 / 20%);
+}
+.date_horizontal_wide {
+  width: 150px;
+  height: auto;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  padding-bottom: 33px;
+  position: sticky;
+  top: 115px;
+  left: 4px;
+  z-index: 2;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  margin-right: 8px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 5%), 0px 1px 1px rgb(0 0 0 / 10%),
+    0px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.fake_div_vertical {
+  width: 82px;
+}
+
+.date_text_container {
+  display: inline-grid;
+}
+
+.date_text {
+  left: 75px;
+  top: 202px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin: 0;
+  white-space: normal;
+}
+
+.day_text {
+  left: 47px;
+  top: 229px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.46px;
+  color: #000000;
+  margin: 0;
+  white-space: normal;
+}
+
+.tours {
+  display: grid;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  width: 248px;
+}
+
+.tour {
+  height: 103px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 1px 3px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  margin-top: 4px;
+  align-items: baseline;
+  padding: 12px;
+}
+
+.tour span {
+  margin-left: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  height: 21px;
+  margin-top: 6px;
+}
+
+.tour_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour_card_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tour_card_size {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tour_card_avatar_left {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.tour_card_avatar_right {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.tour_header {
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour_header_left_icon {
+  padding-left: 12px;
+}
+
+.tour_header_right_icon {
+  padding-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour_header_right_icon span {
+  margin-left: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding-right: 4px;
+  display: flex;
+  align-items: baseline;
+}
+
+.add_tour {
+  display: flex;
+  width: 248px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 1px 3px rgb(0 0 0 / 12%);
+  flex-direction: column;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.space {
+  padding-top: 12px;
+  padding-right: 8px;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 0;
+}
